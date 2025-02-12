@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+        <title>Score Board</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__score">
+                <h3 id="home">HOME</h3>
+                <div class="scorebox">
+                    <p id="score_1">0</p>
+                </div>
+            <div class="buttons">
+                <button onclick="plusOne()">+1</button>
+                <button onclick="plusTwo()">+2</button>
+                <button onclick="plusThree()">+3</button>
+            </div>
+            
+            </div>
+            <div class="container__score">
+                <h3 id="guest">GUEST</h3>
+                <div class="scorebox">
+                    <p id="score_2">0</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="plusOne_2()">+1</button>
+                    <button onclick="plusTwo_2()">+2</button>
+                    <button onclick="plusThree_2()">+3</button>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <button class="reset" onclick="reset()">Reset Score</button>
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
